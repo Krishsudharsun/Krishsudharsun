@@ -53,22 +53,6 @@ I don't think of myself as "a developer who also likes security" — it's closer
 </details>
 
 <details>
-<summary><code>$ ls -la ~/repos/</code></summary>
-<br>
-
-| repo | about |
-|---|---|
-| [`upfinity-site`](https://github.com/Krishsudharsun/upfinity-site) | Company site shipped through UPFINITY |
-| [`portfolio`](https://github.com/Krishsudharsun/portfolio) | Personal portfolio — TypeScript |
-| [`Sri-Ram-Computers`](https://github.com/Krishsudharsun/Sri-Ram-Computers) | Client site build |
-| [`instagram`](https://github.com/Krishsudharsun/instagram) | Frontend clone / practice build |
-| [`PayloadsOfAllTheThings`](https://github.com/Krishsudharsun/PayloadsOfAllTheThings) | Fork — security payload reference library |
-
-<sub>most client and UPFINITY work ships in private repos and doesn't show up here.</sub>
-
-</details>
-
-<details>
 <summary><code>$ ls -la ~/case-studies/</code></summary>
 <br>
 
