@@ -1,0 +1,37 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="220" fill="url(#bg)"/>
+
+  <!-- thin accent rule -->
+  <rect x="0" y="0" width="6" height="220" fill="#39d353"/>
+
+  <!-- grid texture, minimal -->
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="0" y1="180" x2="1000" y2="180"/>
+  </g>
+
+  <text x="60" y="90" font-family="'Courier New', monospace" font-size="42" fill="#e6edf3" font-weight="700">Krishsudharsun L</text>
+  <text x="60" y="125" font-family="'Courier New', monospace" font-size="18" fill="#8b949e">Founder &amp; Backend Developer, UPFINITY — Cybersecurity &amp; OSINT</text>
+
+  <text x="60" y="165" font-family="'Courier New', monospace" font-size="14" fill="#39d353">chennai, india · b.e. computer science engineering · 2025–2029</text>
+
+  <!-- right-side minimal mark: node graph suggesting networking/OSINT -->
+  <g transform="translate(800,40)" stroke="#30363d" stroke-width="1.5" fill="none">
+    <circle cx="60" cy="20" r="4" fill="#39d353" stroke="none"/>
+    <circle cx="20" cy="60" r="4" fill="#58a6ff" stroke="none"/>
+    <circle cx="100" cy="60" r="4" fill="#58a6ff" stroke="none"/>
+    <circle cx="60" cy="100" r="4" fill="#e6edf3" stroke="none"/>
+    <circle cx="140" cy="20" r="4" fill="#e6edf3" stroke="none"/>
+    <line x1="60" y1="20" x2="20" y2="60"/>
+    <line x1="60" y1="20" x2="100" y2="60"/>
+    <line x1="20" y1="60" x2="60" y2="100"/>
+    <line x1="100" y1="60" x2="60" y2="100"/>
+    <line x1="60" y1="20" x2="140" y2="20"/>
+    <line x1="100" y1="60" x2="140" y2="20"/>
+  </g>
+</svg>
