@@ -1,53 +1,86 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Krishsudharsun L" width="100%" />
+  <img src="./assets/banner.svg" alt="krish@upfinity terminal" width="100%" />
 </div>
 
 <p align="center">
   <a href="https://linkedin.com/in/krishsudharsun-l-483525277"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:lkrishsudharsun08@gmail.com"><img src="https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/Krishsudharsun"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Krishsudharsun&label=Profile+Views&color=39d353&style=flat-square" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Krishsudharsun&label=connections+logged&color=39d353&style=flat-square" alt="profile views" />
 </p>
 
----
-
-## About
-
-Computer Science Engineering undergraduate and founder of **UPFINITY**, working across backend engineering, database administration, and cybersecurity/OSINT. Currently leading team execution and technical delivery while deepening expertise in Linux, threat intelligence, and vulnerability research.
-
-```yaml
-role: Founder & Team Manager, UPFINITY
-focus: [Backend Engineering, Database Administration, Cybersecurity, OSINT]
-education: B.E. Computer Science Engineering — MNM Jain Engineering College (2025–2029)
-based_in: Chennai, India
-```
+<p align="center"><sub>this profile is a shell session. click the commands below to run them.</sub></p>
 
 ---
 
-## Experience
+<details>
+<summary><code>$ cat about.md</code></summary>
+<br>
+
+I run **UPFINITY** — leading project execution, client delivery, and the backend/database side of things. Outside of that, I spend most of my time on the security side: Linux, networking, OSINT, and slowly working through bug bounty and reverse engineering.
+
+I don't think of myself as "a developer who also likes security" — it's closer to the reverse. Backend work is where the paycheck is; figuring out how systems break is where the curiosity is.
+
+</details>
+
+<details>
+<summary><code>$ git log --graph --oneline upfinity/</code></summary>
+<br>
 
 <div align="center">
   <img src="./assets/timeline.svg" alt="UPFINITY role timeline" width="100%" />
 </div>
 
-| Role | Duration | Focus |
-|---|---|---|
-| Founder & Team Manager | May 2025 – Present | Project execution, client coordination, growth strategy |
-| Backend Developer | Mar 2026 – Present | Backend operations, automation, secure system functionality |
-| Database Administrator | Mar 2026 – Present | MongoDB management, performance, and data flow |
-| Frontend Developer | May 2025 – Mar 2026 | Responsive builds, UI/UX, client-facing web solutions |
+</details>
 
----
-
-## Skills
+<details>
+<summary><code>$ skillscan --target=krish --verbose</code></summary>
+<br>
 
 <div align="center">
-  <img src="./assets/skills.svg" alt="Skill focus breakdown" width="100%" />
+  <img src="./assets/skills.svg" alt="Skill scan report" width="100%" />
 </div>
 
----
+</details>
 
-## GitHub Activity
+<details>
+<summary><code>$ ls -la projects/</code></summary>
+<br>
+
+```
+drwxr-xr-x  osint-investigation-case-study/     applied OSINT methodology, structured intel gathering
+drwxr-xr-x  vuln-research-bugbounty-practice/   hands-on vulnerability discovery, live practice
+drwxr-xr-x  ecommerce-platform/                 full-stack: frontend UX + backend logic
+drwxr-xr-x  upfinity-company-site/              shipped through UPFINITY, client-facing
+drwxr-xr-x  personal-portfolio/                 the "professional" version of this README
+```
+
+</details>
+
+<details>
+<summary><code>$ cat education.log</code></summary>
+<br>
+
+```
+B.E. Computer Science Engineering
+Misrimal Navajee Munoth Jain Engineering College
+2025 – 2029 (in progress)  |  CGPA 7.57/10
+
+certifications:
+  - Introduction to Cybersecurity, Simplilearn (2025)
+  - HTML Fundamentals, Sololearn (2025)
+```
+
+</details>
+
+<details>
+<summary><code>$ tail -f currently-learning.log</code></summary>
+<br>
+
+`bug bounty` `threat intelligence` `linux internals` `reverse engineering` `backend at scale` `osint tradecraft`
+
+</details>
+
+---
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Krishsudharsun&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="49%" />
@@ -60,33 +93,6 @@ based_in: Chennai, India
 
 ---
 
-## Projects
-
-| Project | Description |
-|---|---|
-| OSINT Investigation Case Study | Structured intelligence gathering and analysis using OSINT methodology |
-| Vulnerability Research / Bug Bounty Practice | Hands-on vulnerability discovery and bug bounty methodology |
-| E-Commerce Website | Full web solution covering frontend UX and backend logic |
-| UPFINITY Company Website | Company site built and shipped through UPFINITY |
-| Personal Portfolio Website | Personal site showcasing skills, experience, and projects |
-
----
-
-## Education & Certifications
-
-**B.E. Computer Science Engineering** — Misrimal Navajee Munoth Jain Engineering College · 2025–2029 (Pursuing) · CGPA 7.57/10
-
-- Introduction to Cybersecurity — Simplilearn (2025)
-- HTML Fundamentals — Sololearn (2025)
-
----
-
-## Currently Exploring
-
-`Bug Bounty` `Threat Intelligence` `Linux Internals` `Reverse Engineering` `Backend Engineering at Scale` `OSINT`
-
----
-
 <div align="center">
-  <sub>Chennai, India — lkrishsudharsun08@gmail.com</sub>
+  <sub><code>$ ping krish</code> — Chennai, India · lkrishsudharsun08@gmail.com</sub>
 </div>

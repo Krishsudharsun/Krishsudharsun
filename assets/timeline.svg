@@ -1,35 +1,32 @@
-<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
-  <rect width="900" height="220" fill="#0d1117"/>
-  <text x="30" y="36" font-size="20" fill="#e6edf3" font-weight="700">UPFINITY — Role Timeline</text>
-  <line x1="30" y1="48" x2="870" y2="48" stroke="#21262d" stroke-width="1"/>
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <rect width="900" height="260" rx="8" fill="#0d1117"/>
+  <rect width="900" height="260" rx="8" fill="none" stroke="#30363d" stroke-width="1.5"/>
 
-  <!-- axis -->
-  <line x1="120" y1="80" x2="820" y2="80" stroke="#30363d" stroke-width="2"/>
+  <rect width="900" height="30" rx="8" fill="#161b22"/>
+  <rect y="18" width="900" height="12" fill="#161b22"/>
+  <circle cx="20" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="38" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="56" cy="15" r="5" fill="#27c93f"/>
+  <text x="450" y="20" text-anchor="middle" font-size="11" fill="#8b949e">git log --graph --oneline upfinity/</text>
 
-  <!-- May 2025 -->
-  <circle cx="140" cy="80" r="5" fill="#e6edf3"/>
-  <text x="140" y="65" font-size="11" fill="#8b949e" text-anchor="middle">May 2025</text>
+  <g font-family="'Courier New', monospace" font-size="12">
+    <!-- commit graph line -->
+    <line x1="40" y1="60" x2="40" y2="220" stroke="#30363d" stroke-width="2"/>
 
-  <!-- Mar 2026 -->
-  <circle cx="560" cy="80" r="5" fill="#39d353"/>
-  <text x="560" y="65" font-size="11" fill="#8b949e" text-anchor="middle">Mar 2026</text>
+    <circle cx="40" cy="64" r="5" fill="#e6edf3"/>
+    <text x="60" y="60" fill="#8b949e">may 2025</text>
+    <text x="60" y="78" fill="#e6edf3">frontend developer — responsive builds, first client sites</text>
 
-  <!-- Present -->
-  <circle cx="800" cy="80" r="5" fill="#58a6ff"/>
-  <text x="800" y="65" font-size="11" fill="#8b949e" text-anchor="middle">Present</text>
+    <circle cx="40" cy="118" r="5" fill="#39d353"/>
+    <text x="60" y="114" fill="#8b949e">may 2025</text>
+    <text x="60" y="132" fill="#e6edf3">founder &amp; team manager — UPFINITY founded, team assembled</text>
 
-  <!-- bars for roles -->
-  <rect x="140" y="100" width="660" height="10" fill="#3fb95022" />
-  <text x="140" y="128" font-size="12" fill="#e6edf3">Founder &amp; Team Manager</text>
-  <line x1="140" y1="100" x2="800" y2="100" stroke="#39d353" stroke-width="6"/>
+    <circle cx="40" cy="172" r="5" fill="#58a6ff"/>
+    <text x="60" y="168" fill="#8b949e">mar 2026</text>
+    <text x="60" y="186" fill="#e6edf3">backend developer — owns backend ops &amp; automation</text>
 
-  <rect x="140" y="140" width="420" height="10" fill="#58a6ff22" />
-  <text x="140" y="168" font-size="12" fill="#8b949e">Frontend Developer</text>
-  <line x1="140" y1="140" x2="560" y2="140" stroke="#8b949e" stroke-width="6"/>
-
-  <text x="580" y="168" font-size="12" fill="#e6edf3">Backend Developer</text>
-  <line x1="560" y1="140" x2="800" y2="140" stroke="#58a6ff" stroke-width="6"/>
-
-  <text x="140" y="200" font-size="12" fill="#e6edf3">Database Administrator</text>
-  <line x1="560" y1="180" x2="800" y2="180" stroke="#e6edf3" stroke-width="6"/>
+    <circle cx="40" cy="216" r="5" fill="#f0883e"/>
+    <text x="60" y="212" fill="#8b949e">mar 2026</text>
+    <text x="60" y="230" fill="#e6edf3">database administrator — MongoDB, performance, data flow</text>
+  </g>
 </svg>

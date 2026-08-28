@@ -1,71 +1,83 @@
-<svg width="900" height="480" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
-  <rect width="900" height="480" fill="#0d1117"/>
+<svg width="900" height="470" viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <rect width="900" height="470" rx="8" fill="#0d1117"/>
+  <rect width="900" height="470" rx="8" fill="none" stroke="#30363d" stroke-width="1.5"/>
 
-  <text x="30" y="40" font-size="20" fill="#e6edf3" font-weight="700">Skill Focus</text>
-  <line x1="30" y1="52" x2="870" y2="52" stroke="#21262d" stroke-width="1"/>
+  <rect width="900" height="30" rx="8" fill="#161b22"/>
+  <rect y="18" width="900" height="12" fill="#161b22"/>
+  <circle cx="20" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="38" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="56" cy="15" r="5" fill="#27c93f"/>
+  <text x="450" y="20" text-anchor="middle" font-size="11" fill="#8b949e">scan-report.log</text>
 
-  <!-- Security & OSINT group -->
-  <text x="30" y="80" font-size="13" fill="#39d353" font-weight="700">SECURITY &amp; OSINT</text>
+  <text x="24" y="56" font-size="13" fill="#8b949e">$ skillscan --target=krish --verbose</text>
+  <text x="24" y="76" font-size="12" fill="#484f58">scanning 12 ports across 3 domains...</text>
 
-  <g font-size="12" fill="#8b949e">
-    <text x="30" y="102">Linux</text>
-    <rect x="140" y="90" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="90" width="432" height="14" fill="#39d353"/>
+  <!-- SECURITY -->
+  <text x="24" y="106" font-size="12" fill="#39d353" font-weight="700">[open] SECURITY / OSINT</text>
+  <g font-size="11" fill="#8b949e">
+    <text x="40" y="126">linux</text>
+    <rect x="160" y="115" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="115" width="396" height="12" fill="#39d353"/>
+    <text x="610" y="126" fill="#39d353">high</text>
 
-    <text x="30" y="126">Networking</text>
-    <rect x="140" y="114" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="114" width="384" height="14" fill="#39d353"/>
+    <text x="40" y="148">networking</text>
+    <rect x="160" y="137" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="137" width="352" height="12" fill="#39d353"/>
+    <text x="610" y="148" fill="#39d353">high</text>
 
-    <text x="30" y="150">OSINT</text>
-    <rect x="140" y="138" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="138" width="360" height="14" fill="#39d353"/>
+    <text x="40" y="170">osint / maltego</text>
+    <rect x="160" y="159" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="159" width="330" height="12" fill="#39d353"/>
+    <text x="610" y="170" fill="#8b949e">solid</text>
 
-    <text x="30" y="174">Reverse Engineering</text>
-    <rect x="140" y="162" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="162" width="288" height="14" fill="#39d353"/>
+    <text x="40" y="192">reverse engineering</text>
+    <rect x="160" y="181" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="181" width="264" height="12" fill="#39d353"/>
+    <text x="610" y="192" fill="#8b949e">growing</text>
 
-    <text x="30" y="198">Burp Suite / Wireshark</text>
-    <rect x="140" y="186" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="186" width="264" height="14" fill="#39d353"/>
+    <text x="40" y="214">burp suite / wireshark</text>
+    <rect x="160" y="203" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="203" width="242" height="12" fill="#39d353"/>
+    <text x="610" y="214" fill="#8b949e">growing</text>
   </g>
 
-  <!-- Web & Backend group -->
-  <text x="30" y="234" font-size="13" fill="#58a6ff" font-weight="700">WEB &amp; BACKEND</text>
+  <!-- WEB -->
+  <text x="24" y="248" font-size="12" fill="#58a6ff" font-weight="700">[open] WEB / BACKEND</text>
+  <g font-size="11" fill="#8b949e">
+    <text x="40" y="268">python</text>
+    <rect x="160" y="257" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="257" width="374" height="12" fill="#58a6ff"/>
+    <text x="610" y="268" fill="#58a6ff">high</text>
 
-  <g font-size="12" fill="#8b949e">
-    <text x="30" y="256">Python</text>
-    <rect x="140" y="244" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="244" width="408" height="14" fill="#58a6ff"/>
+    <text x="40" y="290">javascript / typescript</text>
+    <rect x="160" y="279" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="279" width="330" height="12" fill="#58a6ff"/>
+    <text x="610" y="290" fill="#8b949e">solid</text>
 
-    <text x="30" y="280">JavaScript</text>
-    <rect x="140" y="268" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="268" width="360" height="14" fill="#58a6ff"/>
+    <text x="40" y="312">fastapi / react / next.js</text>
+    <rect x="160" y="301" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="301" width="308" height="12" fill="#58a6ff"/>
+    <text x="610" y="312" fill="#8b949e">solid</text>
 
-    <text x="30" y="304">HTML / CSS</text>
-    <rect x="140" y="292" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="292" width="432" height="14" fill="#58a6ff"/>
-
-    <text x="30" y="328">FastAPI / React / Next.js</text>
-    <rect x="140" y="316" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="316" width="336" height="14" fill="#58a6ff"/>
+    <text x="40" y="334">html / css</text>
+    <rect x="160" y="323" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="323" width="396" height="12" fill="#58a6ff"/>
+    <text x="610" y="334" fill="#58a6ff">high</text>
   </g>
 
-  <!-- Data group -->
-  <text x="30" y="364" font-size="13" fill="#e6edf3" font-weight="700">DATA &amp; TOOLS</text>
+  <!-- DATA -->
+  <text x="24" y="368" font-size="12" fill="#e6edf3" font-weight="700">[open] DATA</text>
+  <g font-size="11" fill="#8b949e">
+    <text x="40" y="388">mongodb</text>
+    <rect x="160" y="377" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="377" width="374" height="12" fill="#e6edf3"/>
+    <text x="610" y="388" fill="#e6edf3">high</text>
 
-  <g font-size="12" fill="#8b949e">
-    <text x="30" y="386">MongoDB</text>
-    <rect x="140" y="374" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="374" width="408" height="14" fill="#e6edf3"/>
-
-    <text x="30" y="410">MySQL</text>
-    <rect x="140" y="398" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="398" width="312" height="14" fill="#e6edf3"/>
-
-    <text x="30" y="434">Git</text>
-    <rect x="140" y="422" width="480" height="14" fill="#161b22"/>
-    <rect x="140" y="422" width="360" height="14" fill="#e6edf3"/>
+    <text x="40" y="410">mysql</text>
+    <rect x="160" y="399" width="440" height="12" fill="#161b22"/>
+    <rect x="160" y="399" width="286" height="12" fill="#e6edf3"/>
+    <text x="610" y="410" fill="#8b949e">solid</text>
   </g>
 
-  <text x="30" y="465" font-size="11" fill="#484f58">self-assessed proficiency, relative scale</text>
+  <text x="24" y="446" font-size="11" fill="#484f58">scan complete — 12/12 ports responded. no vulnerabilities in work ethic detected.</text>
 </svg>
