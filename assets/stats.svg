@@ -1,0 +1,56 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <rect width="900" height="300" rx="8" fill="#0d1117"/>
+  <rect width="900" height="300" rx="8" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <rect width="900" height="30" rx="8" fill="#161b22"/>
+  <rect y="18" width="900" height="12" fill="#161b22"/>
+  <circle cx="20" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="38" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="56" cy="15" r="5" fill="#27c93f"/>
+  <text x="450" y="20" text-anchor="middle" font-size="11" fill="#8b949e">stat --account=krishsudharsun</text>
+
+  <!-- left col: account facts -->
+  <g font-size="13">
+    <text x="30" y="64" fill="#8b949e">account age</text>
+    <text x="230" y="64" fill="#e6edf3" font-weight="700">since Mar 2023</text>
+
+    <text x="30" y="94" fill="#8b949e">public repos</text>
+    <text x="230" y="94" fill="#39d353" font-weight="700">6</text>
+
+    <text x="30" y="124" fill="#8b949e">followers</text>
+    <text x="230" y="124" fill="#58a6ff" font-weight="700">4</text>
+
+    <text x="30" y="154" fill="#8b949e">following</text>
+    <text x="230" y="154" fill="#58a6ff" font-weight="700">5</text>
+
+    <text x="30" y="184" fill="#8b949e">org</text>
+    <text x="230" y="184" fill="#e6edf3" font-weight="700">UPFINITY</text>
+  </g>
+
+  <line x1="450" y1="46" x2="450" y2="270" stroke="#21262d" stroke-width="1"/>
+
+  <!-- right col: language mix -->
+  <g font-size="13">
+    <text x="480" y="64" fill="#8b949e">primary languages tracked</text>
+
+    <text x="480" y="96" fill="#e6edf3">TypeScript</text>
+    <rect x="620" y="86" width="220" height="12" fill="#161b22"/>
+    <rect x="620" y="86" width="150" height="12" fill="#3178c6"/>
+
+    <text x="480" y="128" fill="#e6edf3">HTML</text>
+    <rect x="620" y="118" width="220" height="12" fill="#161b22"/>
+    <rect x="620" y="118" width="180" height="12" fill="#e34f26"/>
+
+    <text x="480" y="160" fill="#e6edf3">Python / FastAPI</text>
+    <rect x="620" y="150" width="220" height="12" fill="#161b22"/>
+    <rect x="620" y="150" width="130" height="12" fill="#39d353"/>
+
+    <text x="480" y="192" fill="#e6edf3">MongoDB / MySQL</text>
+    <rect x="620" y="182" width="220" height="12" fill="#161b22"/>
+    <rect x="620" y="182" width="110" height="12" fill="#8b949e"/>
+  </g>
+
+  <line x1="30" y1="216" x2="870" y2="216" stroke="#21262d" stroke-width="1"/>
+  <text x="30" y="240" font-size="12" fill="#484f58">note: public GitHub activity is a small slice of the work — most of it ships</text>
+  <text x="30" y="258" font-size="12" fill="#484f58">through UPFINITY client repos and isn't public.</text>
+</svg>

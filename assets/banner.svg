@@ -1,6 +1,6 @@
-<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
-  <rect width="1000" height="260" rx="10" fill="#0d1117"/>
-  <rect width="1000" height="260" rx="10" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <rect width="1000" height="300" rx="10" fill="#0d1117"/>
+  <rect width="1000" height="300" rx="10" fill="none" stroke="#30363d" stroke-width="1.5"/>
 
   <!-- terminal title bar -->
   <rect width="1000" height="34" rx="10" fill="#161b22"/>
@@ -21,8 +21,10 @@
   <text x="28" y="206" font-size="15" fill="#8b949e">$ echo $STATUS</text>
   <text x="28" y="228" font-size="15" fill="#58a6ff">building things. probing things. shipping things.</text>
 
+  <text x="28" y="262" font-size="13" fill="#484f58">chennai, india — b.e. computer science engineering, 2025–2029</text>
+
   <!-- blinking cursor block -->
-  <rect x="28" y="238" width="10" height="16" fill="#39d353">
+  <rect x="28" y="274" width="10" height="16" fill="#39d353">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 </svg>
