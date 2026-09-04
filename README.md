@@ -107,4 +107,4 @@ status    open to interesting problems
   <sub><code>$ ping krish</code> — response time: usually same day</sub>
 </div>
 
-<div align="center"><sub><!-- LAST_SYNCED_START --> last synced: `2026-09-03 08:12 UTC` <!-- LAST_SYNCED_END --></sub></div>
+<div align="center"><sub><!-- LAST_SYNCED_START --> last synced: `2026-09-04 08:07 UTC` <!-- LAST_SYNCED_END --></sub></div>
